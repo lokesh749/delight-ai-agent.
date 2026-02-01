@@ -1,0 +1,39 @@
+**/node_modules
+**/dist
+**/.vite
+**/deps
+**/.pnpm-store
+**/pnpm-lock.yaml
+**/playwright-report/**
+**/test-results
+.idea
+CLAUDE.md
+
+### Xcode ###
+## User settings
+xcuserdata/
+
+## Xcode 8 and earlier
+*.xcscmblueprint
+*.xccheckout
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+xcuserdata/
+**/*.xcuserdatad
+**/Package.resolved
+
+# End of https://www.toptal.com/developers/gitignore/api/xcode
+
+### Android ###
+**/.gradle
+**/build
+**/local.properties
+**/.DS_Store
+.discussions/_output/
